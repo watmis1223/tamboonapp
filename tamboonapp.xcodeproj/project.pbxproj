@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845E30DF1F8B2AFD002D987C /* CharityDonateResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E30DE1F8B2AFD002D987C /* CharityDonateResultController.swift */; };
+		84C6F6651F8A262900172C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F6641F8A262900172C6F /* AppDelegate.swift */; };
+		84C6F6671F8A262900172C6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F6661F8A262900172C6F /* ViewController.swift */; };
+		84C6F66A1F8A262900172C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F6681F8A262900172C6F /* Main.storyboard */; };
+		84C6F66C1F8A262900172C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F66B1F8A262900172C6F /* Assets.xcassets */; };
+		84C6F66F1F8A262900172C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F66D1F8A262900172C6F /* LaunchScreen.storyboard */; };
+		84C6F6771F8A2AA600172C6F /* CharityListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F6761F8A2AA600172C6F /* CharityListController.swift */; };
+		84C6F6791F8A6F8300172C6F /* CharityDonateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F6781F8A6F8300172C6F /* CharityDonateController.swift */; };
+		84C6F67B1F8A76EE00172C6F /* CharityListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F67A1F8A76EE00172C6F /* CharityListDelegate.swift */; };
+		84C6F67D1F8A808F00172C6F /* CharityListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F67C1F8A808F00172C6F /* CharityListCell.swift */; };
+		84C6F67F1F8A93C800172C6F /* DonateReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F67E1F8A93C800172C6F /* DonateReq.swift */; };
+		AB879599CA8B8F64CE882D14 /* Pods_tamboonapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8D283E0ED676AD7AF3A843 /* Pods_tamboonapp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E8D283E0ED676AD7AF3A843 /* Pods_tamboonapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tamboonapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1DF7AEAAF23B264A4D9DD2 /* Pods-tamboonapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tamboonapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-tamboonapp/Pods-tamboonapp.release.xcconfig"; sourceTree = "<group>"; };
+		845E30DE1F8B2AFD002D987C /* CharityDonateResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityDonateResultController.swift; sourceTree = "<group>"; };
+		84C6F6611F8A262900172C6F /* tamboonapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tamboonapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C6F6641F8A262900172C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C6F6661F8A262900172C6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C6F6691F8A262900172C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C6F66B1F8A262900172C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C6F66E1F8A262900172C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C6F6701F8A262900172C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C6F6761F8A2AA600172C6F /* CharityListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityListController.swift; sourceTree = "<group>"; };
+		84C6F6781F8A6F8300172C6F /* CharityDonateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityDonateController.swift; sourceTree = "<group>"; };
+		84C6F67A1F8A76EE00172C6F /* CharityListDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityListDelegate.swift; sourceTree = "<group>"; };
+		84C6F67C1F8A808F00172C6F /* CharityListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityListCell.swift; sourceTree = "<group>"; };
+		84C6F67E1F8A93C800172C6F /* DonateReq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateReq.swift; sourceTree = "<group>"; };
+		97E35E74AB5B3E8BD56C437B /* Pods-tamboonapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tamboonapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tamboonapp/Pods-tamboonapp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C6F65E1F8A262900172C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB879599CA8B8F64CE882D14 /* Pods_tamboonapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		760F8CF0064F322F5E0418E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97E35E74AB5B3E8BD56C437B /* Pods-tamboonapp.debug.xcconfig */,
+				7A1DF7AEAAF23B264A4D9DD2 /* Pods-tamboonapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84C6F6581F8A262900172C6F = {
+			isa = PBXGroup;
+			children = (
+				84C6F6631F8A262900172C6F /* tamboonapp */,
+				84C6F6621F8A262900172C6F /* Products */,
+				760F8CF0064F322F5E0418E3 /* Pods */,
+				E0996218BDCE5FFD5EE856BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84C6F6621F8A262900172C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F6611F8A262900172C6F /* tamboonapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C6F6631F8A262900172C6F /* tamboonapp */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F67E1F8A93C800172C6F /* DonateReq.swift */,
+				84C6F6641F8A262900172C6F /* AppDelegate.swift */,
+				84C6F6661F8A262900172C6F /* ViewController.swift */,
+				84C6F6681F8A262900172C6F /* Main.storyboard */,
+				845E30DE1F8B2AFD002D987C /* CharityDonateResultController.swift */,
+				84C6F6761F8A2AA600172C6F /* CharityListController.swift */,
+				84C6F66B1F8A262900172C6F /* Assets.xcassets */,
+				84C6F66D1F8A262900172C6F /* LaunchScreen.storyboard */,
+				84C6F6701F8A262900172C6F /* Info.plist */,
+				84C6F6781F8A6F8300172C6F /* CharityDonateController.swift */,
+				84C6F67A1F8A76EE00172C6F /* CharityListDelegate.swift */,
+				84C6F67C1F8A808F00172C6F /* CharityListCell.swift */,
+			);
+			path = tamboonapp;
+			sourceTree = "<group>";
+		};
+		E0996218BDCE5FFD5EE856BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E8D283E0ED676AD7AF3A843 /* Pods_tamboonapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C6F6601F8A262900172C6F /* tamboonapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C6F6731F8A262900172C6F /* Build configuration list for PBXNativeTarget "tamboonapp" */;
+			buildPhases = (
+				8BEE81F48AE61087AFB0FE49 /* [CP] Check Pods Manifest.lock */,
+				84C6F65D1F8A262900172C6F /* Sources */,
+				84C6F65E1F8A262900172C6F /* Frameworks */,
+				84C6F65F1F8A262900172C6F /* Resources */,
+				EB521B957E206D4BC3F1F888 /* [CP] Embed Pods Frameworks */,
+				025B087C50E15EACF8363BBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tamboonapp;
+			productName = tamboonapp;
+			productReference = 84C6F6611F8A262900172C6F /* tamboonapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C6F6591F8A262900172C6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84C6F6601F8A262900172C6F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84C6F65C1F8A262900172C6F /* Build configuration list for PBXProject "tamboonapp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C6F6581F8A262900172C6F;
+			productRefGroup = 84C6F6621F8A262900172C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C6F6601F8A262900172C6F /* tamboonapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C6F65F1F8A262900172C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6F66F1F8A262900172C6F /* LaunchScreen.storyboard in Resources */,
+				84C6F66C1F8A262900172C6F /* Assets.xcassets in Resources */,
+				84C6F66A1F8A262900172C6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		025B087C50E15EACF8363BBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tamboonapp/Pods-tamboonapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BEE81F48AE61087AFB0FE49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tamboonapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB521B957E206D4BC3F1F888 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tamboonapp/Pods-tamboonapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tamboonapp/Pods-tamboonapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C6F65D1F8A262900172C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845E30DF1F8B2AFD002D987C /* CharityDonateResultController.swift in Sources */,
+				84C6F67D1F8A808F00172C6F /* CharityListCell.swift in Sources */,
+				84C6F6671F8A262900172C6F /* ViewController.swift in Sources */,
+				84C6F67B1F8A76EE00172C6F /* CharityListDelegate.swift in Sources */,
+				84C6F6771F8A2AA600172C6F /* CharityListController.swift in Sources */,
+				84C6F6651F8A262900172C6F /* AppDelegate.swift in Sources */,
+				84C6F67F1F8A93C800172C6F /* DonateReq.swift in Sources */,
+				84C6F6791F8A6F8300172C6F /* CharityDonateController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84C6F6681F8A262900172C6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6F6691F8A262900172C6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C6F66D1F8A262900172C6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6F66E1F8A262900172C6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C6F6711F8A262900172C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84C6F6721F8A262900172C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C6F6741F8A262900172C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E35E74AB5B3E8BD56C437B /* Pods-tamboonapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tamboonapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.tamboonapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C6F6751F8A262900172C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1DF7AEAAF23B264A4D9DD2 /* Pods-tamboonapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tamboonapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.tamboonapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C6F65C1F8A262900172C6F /* Build configuration list for PBXProject "tamboonapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6F6711F8A262900172C6F /* Debug */,
+				84C6F6721F8A262900172C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C6F6731F8A262900172C6F /* Build configuration list for PBXNativeTarget "tamboonapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6F6741F8A262900172C6F /* Debug */,
+				84C6F6751F8A262900172C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C6F6591F8A262900172C6F /* Project object */;
+}
